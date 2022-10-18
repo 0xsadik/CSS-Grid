@@ -1,0 +1,24 @@
+
+/* .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+} */
+
+/* -- auto-fit -- */
+
+/* .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(2, 1fr);
+} */
+
+/* -- min max -- */
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+}
