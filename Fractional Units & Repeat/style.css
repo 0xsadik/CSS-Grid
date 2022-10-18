@@ -1,0 +1,35 @@
+
+/* -- grid template columns -- */
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+} */
+
+
+/* grid template columns and rows */
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 3fr;
+    grid-gap: 5px;
+} */
+
+
+/* -- grid template row / column */
+
+/* .container {
+    display: grid;
+    grid-template: 1fr 2fr / 2fr 3fr;
+    grid-gap: 5px;
+} */
+
+
+/* -- grid template column repeat */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
