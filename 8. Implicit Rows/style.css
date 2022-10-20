@@ -2,5 +2,7 @@
 .container{
     height: 100%;
     display: grid;
-    
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
 }
